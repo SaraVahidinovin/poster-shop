@@ -33,12 +33,17 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 4rem;
-    background-color: black;
-    
+    background-color: black;  
 }
 
-.posters article img {
-    max-width: 100%;
+.posters article button {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 
