@@ -30,13 +30,15 @@ h1{
 
 .posters {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 4rem;
+    background-color: black;
+    
 }
 
 .posters article img {
     max-width: 100%;
-    height: auto;
-    border-radius: 8px 8px 0 0;
 }
 
 
