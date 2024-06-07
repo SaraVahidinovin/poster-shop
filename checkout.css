@@ -32,12 +32,14 @@ main{
     padding: 4rem 10rem;
     background-color: black; 
 }
+
 main> h2{
     color: #fff;
     font-family: 'Segoe UI', Roboto;
     font-size: 2rem;
     margin-bottom: 0;
 }
+
 article img{
     max-width: 100%;
     height: auto;
@@ -80,15 +82,20 @@ article button {
     margin: 1rem;
 }
 
-
 .summary{
     display: grid;
     color: #fff;
-    gap: 10px;
+    gap: 1rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
 }
+
 .summary-header{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: #340809;
 
 }
 
@@ -99,8 +106,9 @@ article button {
 
 .summary-total{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border-top: 2px solid #fff;
+    font-weight: bold;
 }
 
 footer {
@@ -133,6 +141,7 @@ footer h2{
 footer img{
     margin: 0.5rem;
 }
+
 @media screen and (max-width: 700px) {
     main{
         padding: 1rem;
