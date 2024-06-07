@@ -35,7 +35,7 @@ main{
 }
 .posters {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /*repeat(auto-fit, minmax(300px, 1fr)) or: repeat(3, 1fr);*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*to be responsive*/
     gap: 2rem;
 }
 
@@ -72,7 +72,7 @@ article button {
 .last-two {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -114,4 +114,11 @@ footer h2{
 
 footer img{
     margin: 0.5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+    main{
+        padding: 1rem;
+    }
 }
