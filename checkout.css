@@ -88,31 +88,29 @@ article button {
     color:#a1a1a1;
     gap: 1rem;
     margin-top: 3rem;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-family: sans-serif;
 }
 
 .summary-header{
     font-size: 1.2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: 3fr 2fr 1fr;
     background-color: #340809;
     padding: 0.5rem 0;
-    justify-content: space-between;
 }
 
 .summary-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    justify-content: space-between;
+    grid-template-columns:  3fr 2fr 1fr;
 }
 
 .summary-total{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: 5fr 1fr;
     border-top: 2px solid #a1a1a1;
     font-weight: bold;
-    justify-content: space-between;
+    padding: 1rem 0;
 }
 
 .checkout-button{
@@ -165,7 +163,7 @@ footer img{
 
 @media screen and (max-width: 700px) {
     main{
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
 }
