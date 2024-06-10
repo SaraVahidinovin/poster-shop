@@ -31,6 +31,7 @@ h1{
 main{
     padding: 4rem 10rem;
     background-color: black; 
+    display: grid;
 }
 
 main> h2{
@@ -84,31 +85,51 @@ article button {
 
 .summary{
     display: grid;
-    color: #fff;
+    color:#a1a1a1;
     gap: 1rem;
     margin-top: 3rem;
-    font-size: 2rem;
-    text-align: center;
+    font-size: 1.8rem;
     font-family: sans-serif;
 }
 
 .summary-header{
+    font-size: 1.2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     background-color: #340809;
-
+    padding: 0.5rem 0;
+    justify-content: space-between;
 }
 
 .summary-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    justify-content: space-between;
 }
 
 .summary-total{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    border-top: 2px solid #fff;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    border-top: 2px solid #a1a1a1;
     font-weight: bold;
+    justify-content: space-between;
+}
+
+.checkout-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-button button{
+    background-color: #fc2452;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 4rem 0 ;
+    color: #fff;
+    align-self: self-end;
+    font-size: 1.5rem;
 }
 
 footer {
